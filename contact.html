@@ -15,6 +15,7 @@
     <a href="recharge.html">Recharge</a>
     <a href="offers.html">Offers</a>
     <a href="contact.html">Contact</a>
+    <button id="themebtn">🌙</button>
   </nav>
   </div>
 </header>
@@ -23,10 +24,12 @@
   <div >
     <h2>Get in Touch</h2>
     <form class="form">
-      <input type="text" placeholder="Your Name" >
-      <input type="email" placeholder="Email" >
+      <input id="name" type="text" placeholder="Your Name" >
+      <input id="user" type="email" placeholder="Email" >
+      <p id="emailError" style="color:red; font-size:13px; margin: 4px 0px;"></p>
       <textarea rows="5" placeholder="Message"></textarea>
-      <button class="btn">Send Message</button>
+      <p id="error" style="color:red; font-size:13px; margin: 4px 0px;"></p>
+      <button id="btn" class="btn">Send Message</button>
     </form>
   </div><br>
   <br><br>
@@ -39,5 +42,6 @@
 </section>
 
 <footer class="footer">© 2025 Online Wallet</footer>
+<script src="script.js"></script>
 </body>
 </html>
